@@ -2,6 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: train-schedule-service
+  namespace: monitoring
   annotations:
     prometheus.io/scrape: 'true'
 spec:
